@@ -145,4 +145,3 @@ Invalid or missing IDs return 404 Book not found.
 
 🙌 Author
 Yuvraj Singh
-GitHub Profile
