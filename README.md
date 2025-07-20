@@ -136,6 +136,8 @@ Edit
   "year": 1988,
   "available": true
 }
+
+
 📌 Notes
 API returns 204 No Content on successful deletion.
 
@@ -143,5 +145,7 @@ Validation errors return 400 Bad Request with details.
 
 Invalid or missing IDs return 404 Book not found.
 
+
 🙌 Author
 Yuvraj Singh
+
