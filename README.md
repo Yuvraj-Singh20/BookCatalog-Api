@@ -54,10 +54,6 @@ book-catalog-api/
 ├── README.md
 └── Book Catalog-Api.postman_collection.json ✅
 
-yaml
-Copy
-Edit
-
 ---
 
 ## 📬 API Endpoints
@@ -98,11 +94,15 @@ You can test the complete API using the included Postman collection.
 ```bash
 git clone https://github.com/Yuvraj-Singh20/book-catalog-api.git
 cd book-catalog-api
+
+
 Step 2: Install Dependencies
 bash
 Copy
 Edit
 npm install
+
+
 Step 3: Create a .env File
 Create a .env file in the root directory and add your MongoDB URI:
 
@@ -111,7 +111,7 @@ Copy
 Edit
 PORT=5000
 MONGO_URI=<your_mongodb_connection_string>
-Replace <your_mongodb_connection_string> with your actual MongoDB URI.
+
 
 Step 4: Run the Server
 bash
@@ -124,6 +124,7 @@ bash
 Copy
 Edit
 npx nodemon server.js
+
 ✅ Sample Book JSON (for POST or PUT requests)
 json
 Copy
