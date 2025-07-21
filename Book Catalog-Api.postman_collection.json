@@ -1,0 +1,128 @@
+{
+	"info": {
+		"_postman_id": "f32a1f14-9577-461c-9901-646cf6549fd6",
+		"name": "Book Catalog-Api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "44758267",
+		"_collection_link": "https://yuvrajsingh-7010722.postman.co/workspace/Yuvraj-Singh's-Workspace~bd599781-bd03-432f-8bbb-781aee059d33/collection/44758267-f32a1f14-9577-461c-9901-646cf6549fd6?action=share&source=collection_link&creator=44758267"
+	},
+	"item": [
+		{
+			"name": "http://localhost:5000/api/books",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"title\": \"The Alchemist\",\r\n  \"author\": \"Paulo Coelho\",\r\n  \"description\": \"A novel about a shepherd's journey to follow his dreams.\",\r\n  \"genre\": \"Fiction\",\r\n  \"year\": 1988,\r\n  \"available\": true\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/books",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"books"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5000/api/books/687cd1afc164c324c22b03c6",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/api/books/687cd1afc164c324c22b03c6",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"books",
+						"687cd1afc164c324c22b03c6"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5000/api/books/687cd1afc164c324c22b03c6",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"title\": \"The Alchemist (Updated)\",\r\n  \"author\": \"Paulo Coelho\",\r\n  \"description\": \"Updated description.\",\r\n  \"genre\": \"Adventure\",\r\n  \"year\": 1989,\r\n  \"available\": false\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/books/687cd1afc164c324c22b03c6",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"books",
+						"687cd1afc164c324c22b03c6"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5000/api/books/687cd1afc164c324c22b03c6",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"title\": \"The Alchemist (Updated)\",\r\n  \"author\": \"Paulo Coelho\",\r\n  \"description\": \"Updated description.\",\r\n  \"genre\": \"Adventure\",\r\n  \"year\": 1989,\r\n  \"available\": false\r\n}\r\n"
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/books/687cd1afc164c324c22b03c6",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"books",
+						"687cd1afc164c324c22b03c6"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
