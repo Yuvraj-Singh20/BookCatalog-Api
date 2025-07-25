@@ -97,37 +97,20 @@ cd book-catalog-api
 
 
 Step 2: Install Dependencies
-bash
-Copy
-Edit
 npm install
 
 
 Step 3: Create a .env File
 Create a .env file in the root directory and add your MongoDB URI:
-env
-Copy
-Edit
 PORT=5000
 MONGO_URI=<your_mongodb_connection_string>
 
 
 Step 4: Run the Server
-bash
-Copy
-Edit
-npm run dev
 If you don't have nodemon installed globally, use:
-
-bash
-Copy
-Edit
 npx nodemon server.js
 
 ✅ Sample Book JSON (for POST or PUT requests)
-json
-Copy
-Edit
 {
   "title": "The Alchemist",
   "author": "Paulo Coelho",
